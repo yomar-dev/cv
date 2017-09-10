@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	opacity: .9;
+}
+
+div.container{
+	display: flex;
+}
+
+div.header{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	background: #1B1C1D;	
+	padding: 2em 15%;
+}
+
+div.info{
+	padding-right: 3em;
+}
+
+div.info p{
+	text-align: right;
+	line-height: 1.7em;
+}
+
+div.img-perfil img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	filter: grayscale(50%) drop-shadow(0px 0px 20px #fff);
+}
