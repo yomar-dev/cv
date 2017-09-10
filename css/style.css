@@ -1,33 +1,123 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	color: #fff;
+	color: #555;
 	opacity: .9;
 }
 
 div.container{
-	display: flex;
+	width: 100%;
+}
+
+div.row{
+	width: 100%;
+}
+
+div.bg-black{
+	background: #555;
+}
+
+div.bg-grey{
+	background: #f8f8f9;
 }
 
 div.header{
 	display: flex;
-	justify-content: flex-end;
+	align-self: center;
+	color: #fff;
+	max-width: 80%;
+	padding: 2em 0em;
+	margin: auto;
+}
+
+div.info{
+	width: 70%;
+}
+
+div.info h1, div.info p{
+	text-align: right;
+}
+
+div.img-perfil{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+div.img-perfil img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+div.about{
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 2em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+div.about hr{
+	margin-bottom: 10px;
+}
+
+div.about-me{
+	display: flex;
+}
+
+div.about-me p{
+	width: 60%;
+	padding-right: 2em;
+	line-height: 1.8em;
+	font-size: .9em;
+}
+
+div.about-me .image{
+	width: 40%;
+}
+
+div.about-me .image img{
+	width: 100%;
+}
+
+/*div.container{
+	display: flex;
+}
+
+div.row{
+	display: flex;
+	width: 100%;
+}
+
+div.header{
+	color: #fff;
+	display: flex;
 	width: 100%;
 	background: #1B1C1D;	
 	padding: 2em 15%;
 }
 
 div.info{
-	padding-right: 3em;
+	width: 70%;
+	padding-right: 4em;
 }
 
-div.info p{
+div.info p, div.info h1{
 	text-align: right;
 	line-height: 1.7em;
+}
+
+div.img-perfil{
+	width: 30%;
 }
 
 div.img-perfil img{
@@ -36,4 +126,4 @@ div.img-perfil img{
 	border-radius: 50%;
 	border: 2px solid #fff;
 	filter: grayscale(50%) drop-shadow(0px 0px 20px #fff);
-}
+}*/
