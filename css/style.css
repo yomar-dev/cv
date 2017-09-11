@@ -89,6 +89,7 @@ div.about-me .image{
 }
 
 div.about-me .image img{
+	border-radius: 50%;
 	height: 400px;
 	width: 400px; 
 }
