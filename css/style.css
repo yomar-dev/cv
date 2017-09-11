@@ -16,6 +16,7 @@ div.container{
 
 div.row{
 	width: 100%;
+	padding: .5em 0em;
 }
 
 div.bg-black{
@@ -31,7 +32,7 @@ div.header{
 	align-self: center;
 	color: #fff;
 	max-width: 80%;
-	padding: 2em 0em;
+	padding: 1em 0em;
 	margin: auto;
 }
 
@@ -92,4 +93,17 @@ div.about-me .image img{
 	border-radius: 50%;
 	height: 400px;
 	width: 400px; 
+}
+
+
+div.estudios{
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 2em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background: #fff;
 }
