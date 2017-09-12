@@ -19,11 +19,11 @@ div.row{
 	padding: .5em 0em;
 }
 
-div.bg-black{
+.bg-black{
 	background: #555;
 }
 
-div.bg-grey{
+.bg-grey{
 	background: #f8f8f9;
 }
 
@@ -126,4 +126,20 @@ div.estudio a{
 em{
 	font-size: .9em;
 	color: teal;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 1em 0em;
+}
+
+footer p a{
+	color: #fff;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+footer p a:hover{
+	color: skyblue;
 }
