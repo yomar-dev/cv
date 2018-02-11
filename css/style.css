@@ -98,3 +98,25 @@ nav{
 	text-align: center;
 	width: 80%;
 }
+
+
+footer{
+	background-color: #004d40;
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes{
+	/*background: rgba(0, 0, 0, .1);*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	width: 70%;
+}
+
+footer a, footer i{
+	color: #fff;
+	font-weight: 200;
+	font-size:1em;
+}
