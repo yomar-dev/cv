@@ -31,9 +31,12 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	height: 70px;
-	padding: 0 2%;
 	position: fixed;
 	width: 100%;
+}
+
+.logo{
+	margin-left: 2%;	
 }
 
 .logo a{
@@ -45,14 +48,21 @@ nav{
 .menu ul{
 	display: flex;
 	list-style: none;
+	line-height: 70px;
 }
 
 .menu ul li{
 	font-size: .9em;
-	margin-left: 1.7em;
 }
 
 .menu li a{
 	color: rgba(0, 0, 0, .7);
-	font-weight: 500;	
+	font-weight: 500;
+	display: inline-block;
+	padding: 0 1.5em;
+}
+
+.menu li a:hover{
+	background: rgba(0, 0, 0, .1);
+	transition: background-color .3s;
 }
