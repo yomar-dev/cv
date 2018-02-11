@@ -67,6 +67,10 @@ nav{
 	transition: background-color .3s;
 }
 
+.menu-active{
+	background: rgba(0, 0, 0, .1);
+}
+
 .content-intro{
 	background-color: #004d40;
 	color: #fff;
