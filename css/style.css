@@ -99,6 +99,68 @@ nav{
 	width: 80%;
 }
 
+.content-cards{
+	color: rgba(0, 0, 0, .8);
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content-cards h2{
+	font-weight: 300;
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.content-cards h2 i{
+	font-weight: 300;
+}
+
+article.card-content{
+	background: #fafafa;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+	margin: 1.5em 0;
+	padding: 1.5em;
+	width: 70%;
+}
+
+.card-title,
+.card-company,
+.card-date,
+.card-description{
+	padding-bottom: 8px;
+}
+
+.card-title{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.card-company{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.card-company a{
+	color: #000;	
+}
+
+.card-date{
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.card-description{
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 24px;
+}
+
 
 footer{
 	background-color: #004d40;
