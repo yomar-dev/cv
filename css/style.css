@@ -191,21 +191,32 @@ footer .redes{
 	}
 
 	.redes a, .redes i{
-		color: #fff;
-		font-weight: 200;
 		font-size: .9em;
 	}
 } 
 
 @media screen and (min-width: 992px) {
-	.footer{
-		background: yellow;
+	.intro-img{
+		height: 250px;
+		width: 250px;
+	}
+
+	.intro-titulo{
+		font-size: 2.5em;
+	}
+
+	.intro-descripcion{
+		font-size: 1.2em;
+	}
+
+	.redes a, .redes i{
+		font-size: 1em;
 	}
 } 
 
 @media screen and (min-width: 1200px) {
 	.footer{
-		background: pink;
+		background: teal;
 	}
 }
 /*
