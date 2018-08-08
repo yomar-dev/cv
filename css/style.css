@@ -207,13 +207,30 @@ article.card-content{
 	font-size: 15px;
 	line-height: 24px;
 }
-/*
 
-*/
+.certificaciones{
+	
+}
+
+.certificaciones h2{
+	color: rgba(0, 0, 0, .8);
+	text-align: center;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+.certificaciones-cards{
+	display: grid;
+}
+
+.certificaciones-cards article.card-content{
+	margin: 1em auto;
+	width: 90%;
+}
 
 @media screen and (min-width: 320px) {
-	.footer{
-		background: black;
+	.certificaciones-cards{
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -230,8 +247,8 @@ article.card-content{
 		font-size: 1em;
 	}
 
-	.footer{
-		background: red;
+	.certificaciones-cards{
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
@@ -259,6 +276,10 @@ article.card-content{
 	.redes a, .redes i{
 		font-size: .9em;
 	}
+
+	.certificaciones-cards{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 } 
 
 @media screen and (min-width: 992px) {
@@ -282,8 +303,9 @@ article.card-content{
 	article.card-content{
 		width: 70%;
 	}
-	.footer{
-		background: black;
+
+	.certificaciones-cards{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 } 
 
@@ -294,9 +316,5 @@ article.card-content{
 
 	.redes a, .redes i{
 		font-size: 1.1em;
-	}
-
-	.footer{
-		background: teal;
 	}
 }
