@@ -167,6 +167,10 @@ footer .redes{
 	.intro-descripcion{
 		font-size: 1em;
 	}
+
+	.footer{
+		background: red;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -215,6 +219,10 @@ footer .redes{
 } 
 
 @media screen and (min-width: 1200px) {
+	.redes a, .redes i{
+		font-size: 1.1em;
+	}
+
 	.footer{
 		background: teal;
 	}
