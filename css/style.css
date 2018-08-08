@@ -81,19 +81,6 @@ img{
 	text-transform: uppercase;
 }
 
-/*footer{
-	background-color: #004d40;
-	display: flex;
-	justify-content: center;
-}
-
-footer .redes{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 70%;
-}*/
-
 .footer{
 	background: #004d40;
 	border-top: 1px solid #fff;
@@ -113,43 +100,6 @@ footer .redes{
 	font-weight: 200;
 	font-size: 1em;
 }
-/* Start */
-
-/*
-
-
-*/
-/* End */
-
-/*.nav{
-	grid-area: nav;
-}
-
-.main{
-	grid-area: main;
-	background: tomato;
-}
-
-.footer{
-	grid-area: footer;
-	background: skyblue;
-}
-
-.nav{
-	background: #f5f5f5;
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-auto-rows: 70px;
-}
-
-.menu li a:hover{
-	background: rgba(0, 0, 0, .1);
-	transition: background-color .3s;
-}
-
-.menu-active{
-	background: rgba(0, 0, 0, .1);
-}*/
 
 .content-cards{
 	color: rgba(0, 0, 0, .8);
