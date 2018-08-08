@@ -26,13 +26,13 @@ img{
 }
 
 .logo a{
-	/*color: rgba(0, 0, 0, .7);*/
 	color: #fff;
 	font-size: 2em;
 	font-weight: 400;
 }
 
 .menu ul{
+	background-color: #f5f5f5;
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
