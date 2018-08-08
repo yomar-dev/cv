@@ -17,12 +17,6 @@ img{
 	width: 100%;
 }
 
-.container{
-	/*display: grid;
-	grid-template-rows: 70px 1fr 70px;
-	grid-template-areas: 'nav' 'main' 'footer';*/
-}
-
 .logo{
 	background-color: #004d40;
 	display: flex;
@@ -64,6 +58,7 @@ img{
 	flex-direction: column;
 	justify-content: center;
 	padding: 20px 0;
+	height: 100%;
 }
 
 .intro-img{
@@ -116,7 +111,7 @@ footer .redes{
 .redes a, .redes i{
 	color: #fff;
 	font-weight: 200;
-	font-size:1em;
+	font-size: 1em;
 }
 /* Start */
 
@@ -175,8 +170,30 @@ footer .redes{
 }
 
 @media screen and (min-width: 768px) {
-	.footer{
-		background: green;
+	.container{
+		display: grid;
+		grid-template-rows: 140px 1fr 70px;
+		grid-template-areas: 'nav' 'main' 'footer';
+		min-height: 100vh;
+	}
+
+	.menu ul li{
+		font-size: 1.2em;
+	}
+
+	.content-intro{
+		padding: 50px 0;
+	}
+
+	.redes{
+		grid-template-columns: repeat(9, 1fr);
+		grid-template-rows: 70px;
+	}
+
+	.redes a, .redes i{
+		color: #fff;
+		font-weight: 200;
+		font-size: .9em;
 	}
 } 
 
