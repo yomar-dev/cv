@@ -133,13 +133,22 @@ article.card-content{
 
 .card-title{
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 28px;
+}
+
+.card-title a{
+	color: rgba(0, 0, 0, .8);
+}
+
+.card-title a:hover{
+	color: #004d40;
+	text-decoration: underline;
 }
 
 .card-company{
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 28px;
 }
 
