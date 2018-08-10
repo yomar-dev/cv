@@ -137,7 +137,8 @@ article.card-content{
 	line-height: 28px;
 }
 
-.card-title a{
+.card-title a,
+.card-title a:visited{
 	color: rgba(0, 0, 0, .8);
 }
 
